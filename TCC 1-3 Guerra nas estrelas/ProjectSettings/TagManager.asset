@@ -10,7 +10,7 @@ TagManager:
   - ButtonLuminosidade
   - ButtonTemperatura
   - ButtonDistancia
-  - ButtonComparar/Prosseguir
+  - ButtonComparar
   layers:
   - Default
   - TransparentFX

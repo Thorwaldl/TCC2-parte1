@@ -20,7 +20,9 @@ public class Card : MonoBehaviour
     public GameObject Object;
     public GameObject picture;
     private GameObject seleceted;
+    //private GameObject selected;
 
+    public bool selectedVariable;
 
     public TextMeshProUGUI magnetudeTxt;
     public TextMeshProUGUI massaTxt;
@@ -30,12 +32,24 @@ public class Card : MonoBehaviour
     public TextMeshProUGUI distanciaTxt;
     public TextMeshProUGUI textTxt;
 
+    public int id;
     public float magnetude;
     public float massa;
     public float raio;
     public float luminosidade;
     public int temperatura;
     public float distancia;
+    public float valorSelcionado;
+
+    public GameObject magnetudeGameObject;
+    public GameObject massaGameObject;
+    public GameObject raioGameObject;
+    public GameObject luminosidadeGameObject;
+    public GameObject temperaturaGameObject;
+    public GameObject distanciaGameObject;
+
+    public Material azul;
+    public Material vermelho;
 
 
 
@@ -74,66 +88,88 @@ public class Card : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit raycastHit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out raycastHit, 100f))
-                {
-                   //Our custom method. 
-                    CurrentClickedGameObject(raycastHit.transform.gameObject);
-                }
+    /*
+    void Update() {
+        if(player){
+            if (Input.GetMouseButtonDown(0))
+            {
+                RaycastHit raycastHit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out raycastHit, 100f))
+                    {
+                        CurrentClickedGameObject(raycastHit.transform.gameObject);
+                    }
+            }
         }
     }
-    
+    */
  
-    public void CurrentClickedGameObject(GameObject gameObject)
-    {
+    public void CardCurrentClickedGameObject(GameObject gameObject){
+
         if(gameObject.tag=="ButtonMagnetude")
         {
             Debug.Log("magnetude"+magnetude);
-
+            select(magnetudeGameObject);
+            valorSelcionado=magnetude;
+            selectedVariable=true;
         }
 
         if(gameObject.tag=="ButtonMassa")
         {
             Debug.Log("massa"+massa);
-
+            select(massaGameObject);
+            valorSelcionado=massa;
+            selectedVariable=true;
         }
 
         if(gameObject.tag=="ButtonRaio")
         {
             Debug.Log("raio"+raio);
-
+            select(raioGameObject);
+            valorSelcionado=raio;
+            selectedVariable=true;
         }
 
         if(gameObject.tag=="ButtonLuminosidade")
         {
             Debug.Log("luminosidade"+luminosidade);
-
+            select(luminosidadeGameObject);
+            valorSelcionado=luminosidade;
+            selectedVariable=true;
         }
 
         if(gameObject.tag=="ButtonTemperatura")
         {
             Debug.Log("temperatura"+temperatura);
-
+            select(temperaturaGameObject);
+            valorSelcionado=temperatura;
+            selectedVariable=true;
         }
 
         if(gameObject.tag=="ButtonDistancia")
         {
             Debug.Log("distancia"+distancia);
-
+            select(distanciaGameObject);
+            valorSelcionado=distancia;
+            selectedVariable=true;
         }
         
     }
 
     public void select(GameObject gameObject){
-        if(selected!=null){
-            gameObject.GetComponent<MeshRenderer>().material = material;
+        if(seleceted is null){
+            gameObject.GetComponent<MeshRenderer>().material = vermelho;
+        }else{
+            gameObject.GetComponent<MeshRenderer>().material = vermelho;
+            seleceted.GetComponent<MeshRenderer>().material = azul;
         }
+        
         seleceted=gameObject;
+    }
+
+    public void desselect(){
+        seleceted.GetComponent<MeshRenderer>().material = azul;
+        seleceted=null;
     }
 
     public void MagnetudeButton(){

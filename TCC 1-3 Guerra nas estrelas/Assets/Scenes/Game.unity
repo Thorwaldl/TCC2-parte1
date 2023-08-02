@@ -773,6 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object: {fileID: 192880756}
   picture: {fileID: 1565923846}
+  selectedVariable: 0
   magnetudeTxt: {fileID: 269947476}
   massaTxt: {fileID: 1932725709}
   raioTxt: {fileID: 1608821496}
@@ -780,12 +781,22 @@ MonoBehaviour:
   temperaturaTxt: {fileID: 1175778476}
   distanciaTxt: {fileID: 331868056}
   textTxt: {fileID: 1916678267}
+  id: 0
   magnetude: 0
   massa: 0
   raio: 0
   luminosidade: 0
   temperatura: 0
   distancia: 0
+  valorSelcionado: 0
+  magnetudeGameObject: {fileID: 1658872146}
+  massaGameObject: {fileID: 463179522}
+  raioGameObject: {fileID: 930961788}
+  luminosidadeGameObject: {fileID: 249834236}
+  temperaturaGameObject: {fileID: 1498040762}
+  distanciaGameObject: {fileID: 1591624331}
+  azul: {fileID: 2100000, guid: 75398166de6303c499b5dc19e21d698a, type: 2}
+  vermelho: {fileID: 2100000, guid: ae578433e7ce39543971dde6ee2923ea, type: 2}
 --- !u!1 &195949605
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,6 +2574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object: {fileID: 472280121}
   picture: {fileID: 66003021}
+  selectedVariable: 0
   magnetudeTxt: {fileID: 1406185253}
   massaTxt: {fileID: 934832431}
   raioTxt: {fileID: 911328250}
@@ -2570,12 +2582,22 @@ MonoBehaviour:
   temperaturaTxt: {fileID: 195949608}
   distanciaTxt: {fileID: 1913547992}
   textTxt: {fileID: 368485611}
+  id: 0
   magnetude: 0
   massa: 0
   raio: 0
   luminosidade: 0
   temperatura: 0
   distancia: 0
+  valorSelcionado: 0
+  magnetudeGameObject: {fileID: 116381030}
+  massaGameObject: {fileID: 167160533}
+  raioGameObject: {fileID: 679310783}
+  luminosidadeGameObject: {fileID: 1391123175}
+  temperaturaGameObject: {fileID: 563462245}
+  distanciaGameObject: {fileID: 2003490837}
+  azul: {fileID: 2100000, guid: 75398166de6303c499b5dc19e21d698a, type: 2}
+  vermelho: {fileID: 2100000, guid: ae578433e7ce39543971dde6ee2923ea, type: 2}
 --- !u!4 &472280126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9023519337915384325, guid: 0407e924b1aba9c41a8ffe4a7bd3598c, type: 3}
@@ -3976,8 +3998,8 @@ GameObject:
   - component: {fileID: 1034184097}
   - component: {fileID: 1034184096}
   m_Layer: 0
-  m_Name: Button
-  m_TagString: Untagged
+  m_Name: GamesStateBtton
+  m_TagString: ButtonComparar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4622,6 +4644,7 @@ MonoBehaviour:
   deckObject2: {fileID: 308558883}
   deck1: {fileID: 0}
   deck2: {fileID: 0}
+  GameStateButton: {fileID: 446426795}
 --- !u!1 &1239263680
 GameObject:
   m_ObjectHideFlags: 0

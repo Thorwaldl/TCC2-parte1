@@ -6,6 +6,7 @@ using UnityEngine;
 public class CardData
 {
 
+    public int identificador;
     public float magnetude;
     public float massa;
     public float raio;
@@ -18,7 +19,8 @@ public class CardData
 
     public Material material;
 
-        public CardData(float mag, float mass, float rai, float lum, int temp, float dist, bool trun, bool A, Material mat){
+        public CardData(int id,float mag, float mass, float rai, float lum, int temp, float dist, bool trun, bool A, Material mat){
+        identificador=id;
         magnetude=mag;
         massa=mass;
         raio=rai;
