@@ -119,7 +119,6 @@ public class Card : MonoBehaviour
             }else{
                 select(magnetudeGameObject);
                 valorSelcionado=magnetude;
-                selectedVariable=true;
             }            
         }
 
@@ -131,7 +130,6 @@ public class Card : MonoBehaviour
             }else{
                 select(massaGameObject);
                 valorSelcionado=massa;
-                selectedVariable=true;
             }
         }
 
@@ -143,7 +141,6 @@ public class Card : MonoBehaviour
             }else{
                 select(raioGameObject);
                 valorSelcionado=raio;
-                selectedVariable=true;
             }
         }
 
@@ -155,7 +152,6 @@ public class Card : MonoBehaviour
             }else{
                 select(luminosidadeGameObject);
                 valorSelcionado=luminosidade;
-                selectedVariable=true;
             }
         }
 
@@ -167,7 +163,6 @@ public class Card : MonoBehaviour
             }else{
                 select(temperaturaGameObject);
                 valorSelcionado=temperatura;
-                selectedVariable=true;
             }
         }
 
@@ -179,7 +174,6 @@ public class Card : MonoBehaviour
             }else{
                 select(distanciaGameObject);
                 valorSelcionado=distancia;
-                selectedVariable=true;
             }
         }
         
@@ -192,8 +186,10 @@ public class Card : MonoBehaviour
             gameObject.GetComponent<MeshRenderer>().material = vermelho;
             seleceted.GetComponent<MeshRenderer>().material = azul;
         }
-        
+
+        selectedVariable=true;
         seleceted=gameObject;
+
     }
 
     public void selectGreen(){

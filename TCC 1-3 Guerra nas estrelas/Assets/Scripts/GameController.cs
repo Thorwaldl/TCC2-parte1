@@ -180,6 +180,7 @@ public class GameController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RemovePopup();
+            Debug.Log("click");
 
             RaycastHit raycastHit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -218,11 +219,10 @@ public class GameController : MonoBehaviour
                 case 1://compara
 
                     if(card.selectedVariable){
-                        card.selectedVariable=false;
+                        
                         if(Comparador()){
                         gameState=2;
                         GameStateButton.text ="Prosseguir";
-
                         }else{
                             gameState=3;
                             //turnoOponente();
@@ -233,6 +233,8 @@ public class GameController : MonoBehaviour
                         Debug.Log("Não tem dado selecionado... precisava por um popup");
                         PullPopup("Por favor selecione um valor para a comparação");
                     }
+
+                    card.selectedVariable=false;
 
                     deckOponent.UpdateTotal();
                     deckPlayer.UpdateTotal();
@@ -256,7 +258,6 @@ public class GameController : MonoBehaviour
                     GameStateButton.text ="Prosseguir";
                    
                     if(card.selectedVariable){
-                        card.selectedVariable=false;
                         if(Comparador()){
                         gameState=2;
                         GameStateButton.text ="Prosseguir";
@@ -269,9 +270,10 @@ public class GameController : MonoBehaviour
                         }
                     }else{
                         Debug.Log("Não tem dado selecionado... precisava por um popup");
-                        PullPopup("Por favor selecione um valor para a comparação");
 
                     }
+
+                    card.selectedVariable=false;
 
                     deckOponent.UpdateTotal();
                     deckPlayer.UpdateTotal();
