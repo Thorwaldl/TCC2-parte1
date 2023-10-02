@@ -358,6 +358,7 @@
 "Assets/Scripts/DeckController.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/MenuController.cs"
+"Assets/Scripts/OponenteController.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

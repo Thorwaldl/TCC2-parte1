@@ -17,9 +17,11 @@ public class CardData
     public bool trunfo;
     public bool cartaA;
 
+    public string text;
+
     public Material material;
 
-        public CardData(int id,float mag, float mass, float rai, float lum, int temp, float dist, bool trun, bool A, Material mat){
+        public CardData(int id,float mag, float mass, float rai, float lum, int temp, float dist, bool trun, bool A, Material mat, string tex){
         identificador=id;
         magnetude=mag;
         massa=mass;
@@ -30,6 +32,7 @@ public class CardData
         trunfo=trun;
         cartaA=A;
         material=mat;
+        text=tex;
     }
 
 }

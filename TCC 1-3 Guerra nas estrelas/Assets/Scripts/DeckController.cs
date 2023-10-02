@@ -23,20 +23,20 @@ public class DeckController : MonoBehaviour
 
     public void Insert(int card){
         queue.Enqueue(card);
-        UpdateTotal();
+        //UpdateTotal();
     }
 
     public int Draw(){
         int c=queue.Dequeue();// as int;
-        UpdateTotal();
+        //UpdateTotal();
         return c; 
     }
 
-    int Total(){
+    public int Total(){
         return queue.Count;
     }
 
-    void UpdateTotal(){
+    public void UpdateTotal(){
         totalTxt.text =Total().ToString();
     }
 

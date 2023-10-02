@@ -39,6 +39,7 @@ public class Card : MonoBehaviour
     public float luminosidade;
     public int temperatura;
     public float distancia;
+
     public float valorSelcionado;
 
     public GameObject magnetudeGameObject;
@@ -50,6 +51,8 @@ public class Card : MonoBehaviour
 
     public Material azul;
     public Material vermelho;
+    public Material verde;
+    public Material preto;
 
 
 
@@ -61,6 +64,7 @@ public class Card : MonoBehaviour
     }
 
     void setCardDataTest(){
+        id=cardData.identificador;
         magnetude=cardData.magnetude;
         massa=cardData.massa;
         raio=cardData.raio;
@@ -79,6 +83,7 @@ public class Card : MonoBehaviour
         luminosidadeTxt.text =cd.luminosidade.ToString();
         temperaturaTxt.text =cd.temperatura.ToString();
         distanciaTxt.text =cd.distancia.ToString();
+        textTxt.text=cd.text;
 
         setCardDataTest();
     }
@@ -109,49 +114,73 @@ public class Card : MonoBehaviour
         if(gameObject.tag=="ButtonMagnetude")
         {
             Debug.Log("magnetude"+magnetude);
-            select(magnetudeGameObject);
-            valorSelcionado=magnetude;
-            selectedVariable=true;
+            if(seleceted==magnetudeGameObject){
+                desselect();
+            }else{
+                select(magnetudeGameObject);
+                valorSelcionado=magnetude;
+                selectedVariable=true;
+            }            
         }
 
         if(gameObject.tag=="ButtonMassa")
         {
             Debug.Log("massa"+massa);
-            select(massaGameObject);
-            valorSelcionado=massa;
-            selectedVariable=true;
+            if(seleceted==massaGameObject){
+                desselect();
+            }else{
+                select(massaGameObject);
+                valorSelcionado=massa;
+                selectedVariable=true;
+            }
         }
 
         if(gameObject.tag=="ButtonRaio")
         {
             Debug.Log("raio"+raio);
-            select(raioGameObject);
-            valorSelcionado=raio;
-            selectedVariable=true;
+            if(seleceted==raioGameObject){
+                desselect();
+            }else{
+                select(raioGameObject);
+                valorSelcionado=raio;
+                selectedVariable=true;
+            }
         }
 
         if(gameObject.tag=="ButtonLuminosidade")
         {
             Debug.Log("luminosidade"+luminosidade);
-            select(luminosidadeGameObject);
-            valorSelcionado=luminosidade;
-            selectedVariable=true;
+            if(seleceted==luminosidadeGameObject){
+                desselect();
+            }else{
+                select(luminosidadeGameObject);
+                valorSelcionado=luminosidade;
+                selectedVariable=true;
+            }
         }
 
         if(gameObject.tag=="ButtonTemperatura")
         {
             Debug.Log("temperatura"+temperatura);
-            select(temperaturaGameObject);
-            valorSelcionado=temperatura;
-            selectedVariable=true;
+            if(seleceted==temperaturaGameObject){
+                desselect();
+            }else{
+                select(temperaturaGameObject);
+                valorSelcionado=temperatura;
+                selectedVariable=true;
+            }
         }
 
         if(gameObject.tag=="ButtonDistancia")
         {
             Debug.Log("distancia"+distancia);
-            select(distanciaGameObject);
-            valorSelcionado=distancia;
-            selectedVariable=true;
+            if(seleceted==distanciaGameObject){
+                desselect();
+            }else{
+                select(distanciaGameObject);
+                valorSelcionado=distancia;
+                selectedVariable=true;
+            }
         }
         
     }
@@ -167,12 +196,22 @@ public class Card : MonoBehaviour
         seleceted=gameObject;
     }
 
+    public void selectGreen(){
+        seleceted.GetComponent<MeshRenderer>().material = verde;
+    }
+
     public void desselect(){
-        seleceted.GetComponent<MeshRenderer>().material = azul;
+        if(!(seleceted is null)){
+            seleceted.GetComponent<MeshRenderer>().material = azul;
+        }
         seleceted=null;
     }
 
-    public void MagnetudeButton(){
-            Debug.Log("magnetude"+magnetude);
+    public void SetBackground(Material material){
+        Renderer renderer = GetComponent<Renderer>(); // Get the object's renderer component
+        if (renderer != null)
+        {
+            renderer.material = material; // Change the material
+        }
     }
 }   
