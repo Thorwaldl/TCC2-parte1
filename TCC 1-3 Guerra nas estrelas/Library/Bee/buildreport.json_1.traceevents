@@ -1,0 +1,504 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1700280742243196, "dur": 13050626, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280742244355, "dur": 221445, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280742465806, "dur": 887704, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280743353658, "dur": 8334433, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280751688095, "dur": 3593367, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280755281467, "dur": 12353, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280755296218, "dur": 63, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1700280748704099, "dur": 2569220, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700280748705982, "dur": 825706, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700280751226309, "dur": 14090, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700280751240424, "dur": 32859, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700280751243216, "dur": 27742, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700280751289096, "dur": 4166, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700280751286050, "dur": 7318, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280755310671, "dur": 1125, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1700280751832278, "dur":4320, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280751836618, "dur":130, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1700280751836777, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1700280751836821, "dur":985, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1700280751837912, "dur":2798, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280751840711, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755236759, "dur":235, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755236994, "dur":177, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237173, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237182, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237206, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237210, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237225, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237229, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237243, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237296, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755237306, "dur":7522, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1700280751841665, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280751841665, "dur":15247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280751856923, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1700280751857344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280751992785, "dur":104862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1700280752097802, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1700280752098173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280752098295, "dur":55826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1700280752154240, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1700280752154660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280752154680, "dur":31215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1700280752186018, "dur":39494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1700280752225518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280752225533, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1700280752229364, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1700280752229667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280752229686, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1700280752234074, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1700280752234662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280752234680, "dur":17844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1700280752252744, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280752253028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280752253808, "dur":830487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280753084417, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280753084519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280753084528, "dur":91013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280753175651, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280753175783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280753175797, "dur":746555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280753922444, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280753922535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280753922544, "dur":298883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754221536, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754222406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754222418, "dur":151026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754373546, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754373658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754373667, "dur":71355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754445199, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754445307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754445316, "dur":36107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754481541, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754481634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754481644, "dur":57396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754539143, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754539248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754539263, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754541570, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754541684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754541698, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754546362, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754546467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754546483, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754549216, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754549311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754549322, "dur":110305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754659955, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754660168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754660179, "dur":110051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754770329, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754770402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754770410, "dur":74551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754845074, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754845273, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754845301, "dur":77373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754922807, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754922908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754922970, "dur":18238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754941317, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754941419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754941431, "dur":4221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754945747, "dur":1388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754947143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754947158, "dur":16323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754963577, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754964505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754964518, "dur":6514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754971519, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754971840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754971853, "dur":21867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754993814, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754994144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754994155, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754997979, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280754998298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280754998308, "dur":54529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755053168, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755053332, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755053390, "dur":54851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755108348, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755108456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755108468, "dur":21524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755130140, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755130278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755130294, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755134674, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755134799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755134808, "dur":17411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755152355, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755152463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755152479, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755158254, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755158365, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755158385, "dur":26414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700280755184919, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1700280755185529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755186987, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1700280755189445, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1700280755189526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755189534, "dur":35364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1700280755225158, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1700280755225267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755225282, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1700280755228891, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1700280755228984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755228999, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1700280755231341, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1700280755231808, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700280755231829, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1700280755236649, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1700280755236655, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280751840612, "dur":668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280751841281, "dur":15598, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280751856923, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1700280751856927, "dur":13531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280751870517, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1700280751870553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280751887202, "dur":8673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1700280751895883, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1700280751896372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280751927188, "dur":124357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1700280752051748, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1700280752052098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280752052117, "dur":125139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1700280752177363, "dur":47476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1700280752224854, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280752225033, "dur":75072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1700280752300319, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1700280752300800, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280752300816, "dur":308369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1700280752609322, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280752609459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280752693901, "dur":453949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280753148133, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280753148254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280753148262, "dur":65924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280753214286, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280753214399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280753214409, "dur":710146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280753924699, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280753924916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280753924934, "dur":294900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754220088, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754220261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754220297, "dur":178019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754398570, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754398785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754398824, "dur":45530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754444485, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754444609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754444623, "dur":36623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754481341, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754481439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754481457, "dur":60463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754542010, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754542109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754542118, "dur":118514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754660736, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754660831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754660840, "dur":108376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754769324, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754769433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754769449, "dur":20892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754790454, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754790560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754790576, "dur":21167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754811898, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754812160, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754812185, "dur":22498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754834782, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754834919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754834928, "dur":86934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754921982, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754922099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754922115, "dur":16993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754939217, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754939304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754939320, "dur":6022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754945453, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754945801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754945881, "dur":17386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754963373, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754963473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754963489, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754968140, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754968643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754968663, "dur":12973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754981767, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754982134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754982150, "dur":12006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754994264, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754994561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754994574, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754998393, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280754998574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280754998583, "dur":57888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755056616, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755056716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755056736, "dur":62603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755119611, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755119739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755119810, "dur":12588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755132509, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755132664, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755132689, "dur":10998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755143838, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755143972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755143999, "dur":12566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755156695, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755156788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755156803, "dur":32817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700280755189708, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1700280755189806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755189815, "dur":36326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1700280755226324, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1700280755226443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755226453, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1700280755230276, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1700280755230434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700280755230455, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1700280755235262, "dur":1507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280751841551, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280751841552, "dur":15357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280751856923, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1700280751857624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280751900936, "dur":68536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1700280751969692, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1700280751970082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752014968, "dur":75217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1700280752090363, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1700280752090756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752091197, "dur":8913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1700280752100267, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1700280752101403, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752101429, "dur":75972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1700280752177681, "dur":47762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1700280752225450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752225464, "dur":22939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1700280752248534, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1700280752248868, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752248884, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1700280752253807, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280752254020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752254028, "dur":272152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280752526423, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas.exe" }}
+,{ "pid":12345, "tid":3, "ts":1700280752526769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752526784, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas.exe" }}
+,{ "pid":12345, "tid":3, "ts":1700280752530930, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1700280752531291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752531932, "dur":162389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1700280752694431, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280752694573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280752848260, "dur":237082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753085462, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753085597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280753085608, "dur":61588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753147310, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753147440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280753147455, "dur":65948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753213522, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753214247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280753214258, "dur":710511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753924976, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280753925288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280753925301, "dur":295360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754220747, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754220832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754220842, "dur":152457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754373395, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754373512, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754373542, "dur":25288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754398933, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754399069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754399081, "dur":47169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754446360, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754446460, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754446493, "dur":35853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754482451, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754482521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754482530, "dur":59104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754541903, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754542067, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754542094, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754548517, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754548647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754548662, "dur":111789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754660645, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754660858, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754660924, "dur":117578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754778664, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754778790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754778865, "dur":23349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754802343, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754802468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754802482, "dur":31652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754834230, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754834348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754834365, "dur":38998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754873488, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754873638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754873654, "dur":65750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754939493, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754940126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754940152, "dur":5529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754945940, "dur":2347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754948295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754948308, "dur":21572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754969994, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754970654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754970668, "dur":22403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754993173, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754993538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754993553, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754997182, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280754997521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280754997536, "dur":54752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755052403, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755052680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755052696, "dur":54840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755107657, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755107770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755107786, "dur":22509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755130405, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755130495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755130504, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755134386, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755134513, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755134594, "dur":19113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755153839, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755153959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755153979, "dur":24432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755178558, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755178883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755178900, "dur":10020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700280755189016, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1700280755189121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755189203, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1700280755191988, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1700280755192250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755192261, "dur":10268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1700280755202651, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1700280755202745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700280755202756, "dur":32136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1700280755235009, "dur":1680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280751841891, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280751841892, "dur":15199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280751857092, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1700280751857616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280751927217, "dur":162684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1700280752090038, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1700280752090474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280752092351, "dur":74465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1700280752166917, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1700280752167222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280752208703, "dur":43234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1700280752252123, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280752252897, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280752253937, "dur":282612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280752537261, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280752537477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280752693748, "dur":390390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753084258, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753084388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280753084404, "dur":62678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753147342, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753147459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280753147470, "dur":65951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753213525, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753213631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280753213673, "dur":708417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753922200, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280753922289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280753922304, "dur":187283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754109701, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754109811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754109827, "dur":110632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754220553, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754220643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754220653, "dur":153489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754374498, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754374617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754374628, "dur":70988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754446029, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754446142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754446152, "dur":56914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754503192, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754503269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754503281, "dur":36079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754542292, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754542389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754542399, "dur":116705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754659218, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754659328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754659343, "dur":47175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754706746, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754706875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754706892, "dur":62927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754769922, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754770035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754770043, "dur":21092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754791270, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754791476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754791525, "dur":42698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754834502, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754834606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754834672, "dur":87378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754922275, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754922377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754922389, "dur":19410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754941919, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754942019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754942031, "dur":21251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754963478, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754964505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754964518, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754969354, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754969737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754969798, "dur":23524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754993426, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754993717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754993727, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754997728, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280754997993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280754998003, "dur":54699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755052892, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755053002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755053013, "dur":58097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755111299, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755111583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755111649, "dur":22704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755134494, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755134642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755134653, "dur":19721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755154489, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755154600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755154611, "dur":29386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755184143, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755184735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755184753, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700280755189017, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1700280755189265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755189275, "dur":12420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1700280755201814, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1700280755202247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755202265, "dur":23191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1700280755225557, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1700280755225677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755225686, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1700280755228942, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1700280755229038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700280755229046, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/TCC2-parte1/Build2/TCC 1-3 Guerra nas estrelas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1700280755234242, "dur":2452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700280755251787, "dur":6076, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1700280755311956, "dur": 4760, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700280755296142, "dur": 20645, "ph": "X", "name": "Write chrome-trace events", "args": {} },

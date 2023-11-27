@@ -24,6 +24,8 @@ public class Card : MonoBehaviour
 
     public bool selectedVariable;
 
+    public TextMeshProUGUI nomeTxt;
+
     public TextMeshProUGUI magnetudeTxt;
     public TextMeshProUGUI massaTxt;
     public TextMeshProUGUI raioTxt;
@@ -53,6 +55,7 @@ public class Card : MonoBehaviour
     public Material vermelho;
     public Material verde;
     public Material preto;
+    public Material azulEscuro;
 
 
 
@@ -83,6 +86,7 @@ public class Card : MonoBehaviour
         luminosidadeTxt.text =cd.luminosidade.ToString();
         temperaturaTxt.text =cd.temperatura.ToString();
         distanciaTxt.text =cd.distancia.ToString();
+        nomeTxt.text =cd.nome.ToString();
         textTxt.text=cd.text;
 
         setCardDataTest();
@@ -181,9 +185,9 @@ public class Card : MonoBehaviour
 
     public void select(GameObject gameObject){
         if(seleceted is null){
-            gameObject.GetComponent<MeshRenderer>().material = vermelho;
+            gameObject.GetComponent<MeshRenderer>().material = azulEscuro;
         }else{
-            gameObject.GetComponent<MeshRenderer>().material = vermelho;
+            gameObject.GetComponent<MeshRenderer>().material = azulEscuro;
             seleceted.GetComponent<MeshRenderer>().material = azul;
         }
 
@@ -196,10 +200,15 @@ public class Card : MonoBehaviour
         seleceted.GetComponent<MeshRenderer>().material = verde;
     }
 
+    public void selectRed(){
+        seleceted.GetComponent<MeshRenderer>().material = vermelho;
+    }
+
     public void desselect(){
         if(!(seleceted is null)){
             seleceted.GetComponent<MeshRenderer>().material = azul;
         }
+        selectedVariable=false;
         seleceted=null;
     }
 

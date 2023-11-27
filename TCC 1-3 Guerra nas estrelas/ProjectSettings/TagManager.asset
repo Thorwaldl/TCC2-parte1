@@ -11,6 +11,7 @@ TagManager:
   - ButtonTemperatura
   - ButtonDistancia
   - ButtonComparar
+  - ButtonJogar
   layers:
   - Default
   - TransparentFX

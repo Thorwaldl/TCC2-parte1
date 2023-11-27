@@ -18,10 +18,11 @@ public class CardData
     public bool cartaA;
 
     public string text;
+    public string nome;
 
     public Material material;
 
-        public CardData(int id,float mag, float mass, float rai, float lum, int temp, float dist, bool trun, bool A, Material mat, string tex){
+        public CardData(int id,float mag, float mass, float rai, float lum, int temp, float dist, bool trun, bool A, Material mat, string tex, string nom){
         identificador=id;
         magnetude=mag;
         massa=mass;
@@ -33,6 +34,7 @@ public class CardData
         cartaA=A;
         material=mat;
         text=tex;
+        nome=nom;
     }
 
 }

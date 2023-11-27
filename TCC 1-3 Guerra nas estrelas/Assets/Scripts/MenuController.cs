@@ -1,3 +1,4 @@
+using System;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Collections;
@@ -12,7 +13,6 @@ public class MenuController : MonoBehaviour
 {
     public GameObject mainMenu;
     public GameObject menuAjuda;
-
 
     public GameObject buttonJogar;
     public GameObject buttonSair;
@@ -47,11 +47,12 @@ public class MenuController : MonoBehaviour
     }
 
     public void SelectPlayers(int valor){
-    jogadores=valor;
+        jogadores=valor;
     }
 
-    public void Iniciar(){
-    SceneManager.LoadScene(1);
+    public void Iniciar(int cartas){
+        GameController.totalCartas = cartas;
+        SceneManager.LoadScene(1);
 
     }
 
@@ -64,7 +65,11 @@ public class MenuController : MonoBehaviour
     }
 
     public void Voltar(){
-        RevelaMenu(mainMenu);
+        //yep gambiarra extrema
+        SceneManager.LoadScene(0);
+
+        /*RevelaMenu(mainMenu);
+        Debug.Log("Voltar");*/
     }
 
     void EscondeMenu(){
@@ -75,6 +80,7 @@ public class MenuController : MonoBehaviour
     void RevelaMenu(GameObject menu){
         EscondeMenu();
         menu.SetActive(true);
+
     }
 
     void ClearSelection(){

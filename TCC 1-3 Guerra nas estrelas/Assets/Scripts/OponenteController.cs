@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class OponenteController : MonoBehaviour
@@ -19,22 +20,26 @@ public class OponenteController : MonoBehaviour
     private float[] temperaturas;
     private float[] distancias;
 
+    public int total=10;
 
-    public void Setup(CardData[] cardDatas){
-        magnetudes=new float[10];
-        massas=new float[10];
-        raios=new float[10];
-        luminosidades=new float[10];
-        temperaturas=new float[10];
-        distancias=new float[10];
+
+    public void Setup(CardData[] cardDatas, int quantia){
+        total=quantia;
+        magnetudes=new float[total];
+        massas=new float[total];
+        raios=new float[total];
+        luminosidades=new float[total];
+        temperaturas=new float[total];
+        distancias=new float[total];
 
         Arrayfiller(cardDatas);
-        AverageFinder(10);
+        
+        //AverageFinder(total);
     }
 
     void Arrayfiller(CardData[] cd){
         
-        for(int index=0;index<10;index++){
+        for(int index=0;index<total;index++){
 
             magnetudes[index]=cd[index].magnetude;
             massas[index]=cd[index].massa;
@@ -43,8 +48,36 @@ public class OponenteController : MonoBehaviour
             temperaturas[index]=cd[index].temperatura;
             distancias[index]=cd[index].distancia;
             Debug.Log(index);
-
         }
+
+        ArraySorter(magnetudes);
+        ArraySorter(massas);
+        ArraySorter(raios);
+        ArraySorter(luminosidades);
+        ArraySorter(temperaturas);
+        ArraySorter(distancias);
+    }
+
+    void ArraySorter(float[] array){
+        float temp;
+        for(int i=0;i<total;i++){
+            for(int j=0;j<total;j++){
+                if(array[i]<array[j]){
+                    temp=array[i];
+                    array[i]=array[j];
+                    array[j]=temp;
+                }
+            }
+        }
+    }
+
+    void MiddleFinder(){
+        magnetudeMedia=magnetudes[total/2];
+        massaMedia=massas[total/2];
+        raioMedia=raios[total/2];
+        luminosidadeMedia=luminosidades[total/2];
+        temperaturaMedia=temperaturas[total/2];
+        distanciaMedia=distancias[total/2];
     }
 
     void AverageFinder(int size){
